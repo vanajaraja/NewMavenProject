@@ -8,6 +8,8 @@ public class BaseClass {
 	
 	public static WebDriver driver;
 	
+	//Base created for all methods which is used very frequently
+	
 	//Method to initialize the driver
 	public static void driverIntialization() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RAJAPPA\\Desktop\\JavaPractise\\FirstSamMavenProject\\Drivers\\chromedriver.exe");
